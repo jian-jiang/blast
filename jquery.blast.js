@@ -124,7 +124,7 @@
                 }
 
                 valueClass = NAME + "-" + opts.delimiter.toLowerCase() + "-" + text.toLowerCase();
-
+                wrapper.setAttribute("word", text.toLowerCase());
                 wrapper.className += " " + valueClass;
             }
 
