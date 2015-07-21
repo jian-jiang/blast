@@ -1,3 +1,7 @@
+var jQuery = require("jquery");
+window.jQuery = jQuery;
+window.$ = $;
+
 /****************
     Blast.js
 ****************/
